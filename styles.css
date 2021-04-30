@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fbd1b7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+   }
+.container{
+    width: 22%;
+    height: 60%;
+    margin: 0 auto 0 auto;
+    background-color: #150335;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+input{
+  width: 100%;
+  padding: 12px 5px;
+  margin: 8px 0;
+ }
+.form{
+    padding-left: 30px;
+    padding-right: 30px;
+   padding-bottom: 10px;
+}
+.forget{
+    padding-left: 30px;
+   color: #aec9e0;
+   text-decoration: none;
+   
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.button{
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.btn{
+  width: 100%;
+  padding: 12px 5px;
+  margin: 8px 0;
+  font-size: 25px;
+  font-weight: 900;
+  color: #150335;
+  text-shadow: 2px 3px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+p{
+    margin-left: 30px;
+}
+.medias{
+    text-align: center;
+}
+.fab{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    }
+.fa-facebook-f{
+    padding: 10px 14px;
+ }
