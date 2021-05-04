@@ -7,8 +7,9 @@
 body{
     font-family: 'Lato', sans-serif;
     background-color: #fbd1b7;
-    align-items: center;
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin: 0;
     height: 100vh;
@@ -26,9 +27,7 @@ h2{
     font-size: 18px;
    }
 .container{
-    width: 22%;
-    height: 60%;
-    margin: 0 auto 0 auto;
+    padding: 20px 40px;
     background-color: #150335;
     color: white;
     box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
@@ -37,15 +36,12 @@ h2{
 input{
   width: 100%;
   padding: 12px 5px;
-  margin: 8px 0;
- }
+   }
 .form{
-    padding-left: 30px;
-    padding-right: 30px;
-   padding-bottom: 10px;
+      padding-bottom: 10px;
 }
 .forget{
-    padding-left: 30px;
+    
    color: #aec9e0;
    text-decoration: none;
    
@@ -53,32 +49,30 @@ input{
 .forget:hover{
     text-decoration: underline;
 }
-.button{
-    margin-top: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-}
+
 .btn{
   width: 100%;
-  padding: 12px 5px;
-  margin: 8px 0;
+  margin-top: 25px;
+  padding: 30px;
+  font-family: inherit;
   font-size: 25px;
   font-weight: 900;
   color: #150335;
-  text-shadow: 2px 3px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 3px 4px rgba(0,0,0,0.2);
   cursor: pointer;
   border-radius: 5px;
 }
 .btn:hover{
     opacity: 0.8;
 }
-p{
-    margin-left: 30px;
+.btn:active{
+    transform: scale(0.98);
 }
+
 .medias{
     text-align: center;
-}
+    
+ }
 .fab{
     background-color: grey;
     color: white;
